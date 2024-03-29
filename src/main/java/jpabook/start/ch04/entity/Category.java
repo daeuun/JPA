@@ -1,6 +1,7 @@
 package jpabook.start.ch04.entity;
 
 import jakarta.persistence.*;
+import jpabook.start.ch04.entity.item.Item;
 import lombok.Getter;
 import lombok.Setter;
 

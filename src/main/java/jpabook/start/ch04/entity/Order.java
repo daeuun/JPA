@@ -11,7 +11,7 @@ import java.util.List;
 @Entity
 @Getter @Setter
 @Table(name = "ORDERS")
-public class Order {
+public class Order extends BaseEntity {
 
     @Id
     @GeneratedValue
